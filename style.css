@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container .logo {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .container .logo {
+    left: 24px;
+    top: 20px;
+  }
+}
+
+.container .section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .container .section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+}
+
+.container .section img {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .container .section img {
+    width: 70%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container .section img {
+    margin: 75px 0;
+  }
+}
+
+.container .section .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .container .section .col {
+    gap: 5px;
+  }
+}
+
+.container .section .col h1 {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: -0.035em;
+  color: #333333;
+  width: 586px;
+  height: 190px;
+}
+
+@media (max-width: 768px) {
+  .container .section .col h1 {
+    width: 350px;
+    height: 142px;
+    font-size: 32px;
+  }
+}
+
+.container .section .col p {
+  width: 381px;
+  height: 108px;
+  font-family: Space Mono;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: -0.035em;
+}
+
+@media (max-width: 768px) {
+  .container .section .col p {
+    width: 328px;
+    height: 108px;
+    font-size: 18px;
+  }
+}
+
+.container .section .col a {
+  background: #333333;
+  width: 216px;
+  height: 68px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
